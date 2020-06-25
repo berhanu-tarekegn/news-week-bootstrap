@@ -1,0 +1,27 @@
+{
+  "name": "news-week-bootstrap",
+  "version": "1.0.0",
+  "description": "News week project clone through bootstrap",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/berhanu-tarekegn/news-week-bootstrap.git"
+  },
+  "keywords": [
+    "newsweek",
+    "bootstrap",
+    "responsive-design"
+  ],
+  "author": "Berhanu Tarekegn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/berhanu-tarekegn/news-week-bootstrap/issues"
+  },
+  "homepage": "https://github.com/berhanu-tarekegn/news-week-bootstrap#readme",
+  "dependencies": {
+    "bootstrap": "^4.5.0"
+  }
+}

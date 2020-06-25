@@ -1,0 +1,89 @@
+
+@import "../../node_modules/bootstrap/scss/functions"; 
+@import "../../node_modules/bootstrap/scss/variables";
+
+$theme-colors: (
+  "primary": #f72210,
+  "warning": #ffe400,
+  "success":#f92859,
+  "blur":#3581f4
+);
+
+$link-color:#333;
+$link-hover-color: theme-color("primary");
+
+
+$body-bg: #f4f5f6;
+
+$body-color: #333;
+
+$cs-border-width: 3px;
+$cs-border-style: solid;
+
+
+.cs-border-top {
+  border-top: $cs-border-width $cs-border-style theme-color("success");
+}
+
+.cs-border-bottom {
+  border-bottom: $cs-border-width $cs-border-style theme-color("blur");
+}
+
+$badge-transition:none;
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.md-menu-item {
+  @extend .nav-link;
+  @extend .font-weight-bold;
+  @extend .border-right;
+  @extend .flex-grow-1;
+  @extend .flex-shrink-1;
+  @extend .py-0; 
+}
+
+.mg-bage {
+  @extend .rounded-0;
+  @extend .badge;
+  @extend .badge-primary;
+  @extend .py-2;
+  @extend .text-uppercase;
+  @extend .font-weight-normal;
+}
+
+.mg-link-bage {
+  @extend .rounded-0;
+  @extend .p-2;
+  @extend .mx-2;
+  @extend .bg-white;
+  @extend .badge;
+  @extend .text-primary;
+  @extend .badge-light;
+  @extend .text-uppercase;
+  @extend .font-weight-normal;
+}
+
+.lg-max-width {
+  max-width: 1310px;
+  margin: auto;
+}
+
+// .hover-effect {
+//   color: #333;
+// }
+
+// .hover-effect:hover {
+//   color: #f72210;
+// }
+
+.search-width {
+  width: 150px;
+}
+
+
+
