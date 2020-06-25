@@ -67,6 +67,11 @@ body {
   @extend .text-uppercase;
   @extend .font-weight-normal;
 }
+.mg-article {
+  @extend .p-2;
+  @extend .flex-fill;
+  @extend .col-md-3;
+}
 
 .lg-max-width {
   max-width: 1310px;
