@@ -1,6 +1,7 @@
 
-@import "../../node_modules/bootstrap/scss/functions"; 
+@import "../../node_modules/bootstrap/scss/functions";
 @import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/mixins";
 
 $theme-colors: (
   "primary": #f72210,
@@ -12,14 +13,12 @@ $theme-colors: (
 $link-color:#333;
 $link-hover-color: theme-color("primary");
 
-
 $body-bg: #f4f5f6;
 
 $body-color: #333;
 
 $cs-border-width: 3px;
 $cs-border-style: solid;
-
 
 .cs-border-top {
   border-top: $cs-border-width $cs-border-style theme-color("success");
@@ -33,7 +32,6 @@ $badge-transition:none;
 
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
-
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -44,7 +42,7 @@ body {
   @extend .border-right;
   @extend .flex-grow-1;
   @extend .flex-shrink-1;
-  @extend .py-0; 
+  @extend .py-0;
 }
 
 .mg-bage {
@@ -67,6 +65,7 @@ body {
   @extend .text-uppercase;
   @extend .font-weight-normal;
 }
+
 .mg-article {
   @extend .p-2;
   @extend .flex-fill;
@@ -78,17 +77,6 @@ body {
   margin: auto;
 }
 
-// .hover-effect {
-//   color: #333;
-// }
-
-// .hover-effect:hover {
-//   color: #f72210;
-// }
-
 .search-width {
   width: 150px;
 }
-
-
-

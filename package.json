@@ -2,7 +2,6 @@
   "name": "news-week-bootstrap",
   "version": "1.0.0",
   "description": "News week project clone through bootstrap",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -22,6 +21,16 @@
   },
   "homepage": "https://github.com/berhanu-tarekegn/news-week-bootstrap#readme",
   "dependencies": {
-    "bootstrap": "^4.5.0"
+    "bootstrap": "^4.5.0",
+    "stylelint-config-recommended": "^3.0.0"
+  },
+  "devDependencies": {
+    "@hint/parser-less": "^1.0.11",
+    "@hint/parser-sass": "^1.0.11",
+    "@hint/parser-typescript-config": "^2.4.6",
+    "hint": "^6.0.6",
+    "stylelint": "^13.3.3",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-scss": "^3.17.2"
   }
 }
