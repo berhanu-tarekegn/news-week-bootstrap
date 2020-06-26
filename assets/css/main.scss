@@ -36,6 +36,12 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.card-img {
+  @extend .card-img;
+
+  height: 100%;
+}
+
 .md-menu-item {
   @extend .nav-link;
   @extend .font-weight-bold;
@@ -79,4 +85,17 @@ body {
 
 .search-width {
   width: 150px;
+}
+
+.ft-menu-item {
+  @extend .nav-link;
+  @extend .font-weight-lighter;
+  @extend .border-right;
+  @extend .py-0;
+}
+
+.ft-menu-item-border {
+  @extend .nav-link;
+  @extend .font-weight-lighter;
+  @extend .py-0;
 }
