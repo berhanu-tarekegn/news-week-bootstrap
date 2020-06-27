@@ -1,19 +1,21 @@
 # Intuit Clone.
 
-> This is a clone of the Intuit registration page.
+> This is a clone of the Newsweek using bootstrap page.
 
-![screenshot](./images/intuit.png)
+![screenshot](./images/newsweek.png)
 
-This project is a replica of the Intuit registration page. It has a form that allows users to enter their respective credentials and submit them to the website backend.
+This is a replica of the newsweek page. the clone has been done through responsive techonologis, bootstrap. It supports different screen sizes.
 
 ## Built With
 
 - HTML5,
 - CSS3.
+- SASS
+- Boostrap
 
 ## Live Demo
 
-To see a preview of the actual project, check out the [Live Demo Link](https://rawcdn.githack.com/berhanu-tarekegn/Intuit-clone/develop/index.html)
+To see a preview of the actual project, check out the [Live Demo Link](https://rawcdn.githack.com/berhanu-tarekegn/news-week-bootstrap/develop/index.html)
 
 
 ## Getting Started
@@ -27,15 +29,12 @@ To run the project smoothly, you must have the following installed on your machi
 - A web browser.
 
 ### Setup
-You need to clone the project by running `git clone https://github.com/berhanu-tarekegn/Intuit-clone.git` You'd then navigate to the location to which you cloned the project and run the `index.html` file on your browser.
+
+- You need to clone the project by running `git clone https://github.com/berhanu-tarekegn/news-week-bootstrap.git` 
+- Generate the css from the **SASS** uisng the following command `sass assets/css/main.scss assets/css/main.css` assuming you're on the root directory of the project
+-You'd then navigate to the location to which you cloned the project and run the `index.html` file on your browser.
 
 ## Authors
-
-👤 **Kelyn Paul Njeri**
-
-- Github: [@KelynPNjeri](https://github.com/KelynPNjeri)
-- Twitter: [@twitterhandle](https://twitter.com/KelynNjeri)
-- Linkedin: [Kelyn Paul](https://linkedin.com/kelyn-paul)
 
 👤 **Berhanu Tarekegn**
 
@@ -56,6 +55,8 @@ Give a ⭐️ if you like this project!
 
 - W3Schools
 - CSS Tricks
+- Bootstrap team
+- miniskin team
 
 ## 📝 License
 
