@@ -9,7 +9,6 @@
     "build/**",
     "dist/**",
     "**/reset*.css",
-    "**/bootstrap*.css",
-    "node_module/**"
+    "**/bootstrap*.css"
   ]
 }
