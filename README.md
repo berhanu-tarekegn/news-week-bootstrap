@@ -2,7 +2,7 @@
 
 > This is a clone of the Newsweek using bootstrap page.
 
-![screenshot](./images/newsweek.png)
+![screenshot](./assets/images/newsweek.png)
 
 This is a replica of the newsweek page. the clone has been done through responsive techonologis, bootstrap. It supports different screen sizes.
 
