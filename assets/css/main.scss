@@ -34,6 +34,7 @@ $badge-transition:none;
 
 body {
   font-family: Arial, Helvetica, sans-serif;
+  // overflow: hidden;
 }
 
 .card-img {
@@ -58,6 +59,8 @@ body {
   @extend .py-2;
   @extend .text-uppercase;
   @extend .font-weight-normal;
+
+  padding: 0.1em 0.2em;
 }
 
 .mg-link-bage {
@@ -176,6 +179,11 @@ body {
   width: 100px;
 }
 
+.nav-i {
+  padding-right: 0;
+  padding-left: 0;
+}
+
 @include media-breakpoint-up(lg) {
   .footer-logo {
     width: 150px;
@@ -185,5 +193,29 @@ body {
 @include media-breakpoint-up(md) {
   .footer-row {
     align-items: center;
+  }
+}
+
+@include media-breakpoint-up(sm) {
+  .nav-i {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+  }
+}
+
+img {
+  min-width: 32px;
+  min-height: 32px;
+}
+
+.mg-tag {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+@include media-breakpoint-up(md) {
+  .mg-tag {
+    margin-right: auto;
+    margin-left: auto;
   }
 }

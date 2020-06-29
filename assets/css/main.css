@@ -10175,6 +10175,10 @@ body {
   height: 100%;
 }
 
+.mg-bage {
+  padding: 0.1em 0.2em;
+}
+
 .lg-max-width {
   max-width: 1310px;
   margin: auto;
@@ -10235,6 +10239,11 @@ body {
   width: 100px;
 }
 
+.nav-i {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
 @media (min-width: 992px) {
   .footer-logo {
     width: 150px;
@@ -10243,6 +10252,28 @@ body {
 @media (min-width: 768px) {
   .footer-row {
     align-items: center;
+  }
+}
+@media (min-width: 576px) {
+  .nav-i {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+  }
+}
+img {
+  min-width: 32px;
+  min-height: 32px;
+}
+
+.mg-tag {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+@media (min-width: 768px) {
+  .mg-tag {
+    margin-right: auto;
+    margin-left: auto;
   }
 }
 
