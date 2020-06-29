@@ -30,6 +30,12 @@ $cs-border-style: solid;
 
 $badge-transition:none;
 
+.navbar-brand {
+  @extend .navbar-brand;
+
+  margin-right: 0 !important;
+}
+
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
 body {
@@ -103,11 +109,6 @@ body {
   @extend .py-0;
 }
 
-.navbar-brand {
-  @extend .navbar-brand;
-
-  margin-right: 0;
-}
 
 .navbar h1 {
   margin-bottom: 0.5em;
@@ -209,8 +210,8 @@ body {
 }
 
 img {
-  min-width: 32px;
-  min-height: 32px;
+  min-width: 42px;
+  min-height: 42px;
 }
 
 .mg-tag {

@@ -7,6 +7,10 @@
   border-bottom: 3px solid #3581f4;
 }
 
+.navbar-brand {
+  margin-right: 0 !important;
+}
+
 /*!
  * Bootstrap v4.5.0 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
@@ -10188,10 +10192,6 @@ body {
   width: 150px;
 }
 
-.navbar-brand {
-  margin-right: 0;
-}
-
 .navbar h1, .header-nav h1 {
   margin-bottom: 0.5em;
 }
@@ -10266,8 +10266,8 @@ body {
   }
 }
 img {
-  min-width: 32px;
-  min-height: 32px;
+  min-width: 42px;
+  min-height: 42px;
 }
 
 .mg-tag {
