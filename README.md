@@ -15,7 +15,7 @@ This is a replica of the newsweek page. the clone has been done through responsi
 
 ## Live Demo
 
-To see a preview of the actual project, check out the [Live Demo Link](https://rawcdn.githack.com/berhanu-tarekegn/news-week-bootstrap/develop/index.html)
+To see a preview of the actual project, check out the [Live Demo Link](https://raw.githack.com/berhanu-tarekegn/news-week-bootstrap/develop/index.html)
 
 
 ## Getting Started
