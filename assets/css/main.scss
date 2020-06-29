@@ -99,3 +99,91 @@ body {
   @extend .font-weight-lighter;
   @extend .py-0;
 }
+
+.navbar-brand {
+  @extend .navbar-brand;
+
+  margin-right: 0;
+}
+
+.navbar h1 {
+  margin-bottom: 0.5em;
+}
+
+.login-button {
+  @extend .btn;
+  @extend .d-md-block;
+  @extend .d-none;
+  @extend .h4;
+  @extend .text-white;
+  @extend .font-weight-bold;
+  @extend .text-uppercase;
+
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.side-form-button {
+  @extend .btn;
+  @extend .bg-primary;
+  @extend .h4;
+  @extend .text-white;
+  @extend .font-weight-bold;
+  @extend .text-uppercase;
+
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.header-nav {
+  @extend .navbar;
+  @extend .bg-primary;
+  @extend .d-flex;
+  @extend .flex-row;
+  @extend .align-items-center;
+
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.nav-log {
+  width: 150px;
+}
+
+@include media-breakpoint-up(lg) {
+  .nav-log {
+    width: 300px;
+  }
+}
+
+.g-icon {
+  width: 18px;
+  padding: 5px;
+  margin-right: 2px;
+  color: #fff;
+}
+
+@include media-breakpoint-up(lg) {
+  .g-icon {
+    padding: 5px;
+    margin-right: 2px;
+    color: #fff;
+    width: 30px;
+  }
+}
+
+.footer-logo {
+  width: 100px;
+}
+
+@include media-breakpoint-up(lg) {
+  .footer-logo {
+    width: 150px;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  .footer-row {
+    align-items: center;
+  }
+}
