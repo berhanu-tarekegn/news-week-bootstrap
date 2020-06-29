@@ -190,9 +190,14 @@ body {
   }
 }
 
+.footer-row {
+  flex-wrap: wrap;
+}
+
 @include media-breakpoint-up(md) {
   .footer-row {
     align-items: center;
+    flex-wrap: nowrap !important;
   }
 }
 
@@ -218,4 +223,29 @@ img {
     margin-right: auto;
     margin-left: auto;
   }
+}
+
+.ft-nav {
+  justify-content: flex-start;
+}
+
+@include media-breakpoint-up(md) {
+  .ft-nav {
+    justify-content: flex-end;
+  }
+}
+
+.subscribe .container {
+  background-color: whitesmoke;
+  margin: 1em 0;
+}
+
+.subscribe .container .card {
+  width: 90%;
+  margin: 1em auto;
+}
+
+.main-container {
+  position: relative;
+  height: 1000px;
 }

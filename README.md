@@ -1,4 +1,4 @@
-# Intuit Clone.
+# Newsweek Clone.
 
 > This is a clone of the Newsweek using bootstrap page.
 
@@ -55,7 +55,6 @@ Give a ⭐️ if you like this project!
 
 - W3Schools
 - CSS Tricks
-- Bootstrap team
 - miniskin team
 
 ## 📝 License

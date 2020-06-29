@@ -10240,8 +10240,8 @@ body {
 }
 
 .nav-i {
-  padding-right: 0px;
-  padding-left: 0px;
+  padding-right: 0;
+  padding-left: 0;
 }
 
 @media (min-width: 992px) {
@@ -10249,9 +10249,14 @@ body {
     width: 150px;
   }
 }
+.footer-row {
+  flex-wrap: wrap;
+}
+
 @media (min-width: 768px) {
   .footer-row {
     align-items: center;
+    flex-wrap: nowrap !important;
   }
 }
 @media (min-width: 576px) {
@@ -10275,6 +10280,29 @@ img {
     margin-right: auto;
     margin-left: auto;
   }
+}
+.ft-nav {
+  justify-content: flex-start;
+}
+
+@media (min-width: 768px) {
+  .ft-nav {
+    justify-content: flex-end;
+  }
+}
+.subscribe .container {
+  background-color: whitesmoke;
+  margin: 1em 0;
+}
+
+.subscribe .container .card {
+  width: 90%;
+  margin: 1em auto;
+}
+
+.main-container {
+  position: relative;
+  height: 1000px;
 }
 
 /*# sourceMappingURL=main.css.map */
